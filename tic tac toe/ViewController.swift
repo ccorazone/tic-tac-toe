@@ -50,11 +50,7 @@ class ViewController: UIViewController {
             showAlert("Draw!")
             return
         }
-        var array = [1,2,3,4,5,1,3]
-        let maxValue = array.max() ?? 0
-        print("Max value is \(maxValue)")
-        var newarray = Array(Set(array))
-        newarray.sort()
+        
         
         
     }
